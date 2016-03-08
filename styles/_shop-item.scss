@@ -11,6 +11,10 @@
   margin: $gutter;
 }
 
+.shop-item__pic {
+  width: 100%;
+}
+
 .shop-item__info {
   display: flex;
   flex-direction: column;
@@ -19,7 +23,6 @@
 }
 
 .shop-item__title {
-
   margin: auto;
 }
 
