@@ -1,0 +1,29 @@
+.shop-item {
+  display: flex;
+  flex-direction: column;
+
+  max-width: $max-content-width;
+  border: $brand-border;
+
+}
+
+.shop-item__shirt {
+  margin: $gutter;
+}
+
+.shop-item__info {
+  display: flex;
+  flex-direction: column;
+  margin: $gutter;
+
+}
+
+.shop-item__title {
+
+  margin: auto;
+}
+
+.shop-item__desc {
+
+  margin: $gutter;
+}
