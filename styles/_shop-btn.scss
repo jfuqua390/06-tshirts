@@ -7,9 +7,9 @@
   display: flex;
   justify-content: center;
   width: 20%;
+  padding: 0.5rem;
   border-top: $brand-border;
   border-right: $brand-border;
-  padding: .5rem;
 
   &:last-of-type {
     border-right: 0;
@@ -19,6 +19,8 @@
 .dropdown {
   &:hover {
     position: relative;
+    background: $brand-primary;
+    color: $brand-white;
   }
 }
 
@@ -29,15 +31,16 @@
   width: 100%;
   transform: translate(50%);
   background: $brand-white;
+  color: $brand-primary;
   text-align: center;
 
 }
 
 .dropdown__options-item {
+  padding: 0.5rem;
   border-top: $brand-border;
   border-right: $brand-border;
   border-left: $brand-border;
-  padding: .5rem;
 
   &:last-of-type {
     border-bottom: $brand-border;

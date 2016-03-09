@@ -17,11 +17,8 @@
 
 .grid-item {
   flex-basis: (100% / 3);
-  width: (100% / 3);
-  max-width: $max-content-width;
-
-  //phone settings//
-  min-width: 15rem;
   flex-grow: 1;
-
+  width: (100% / 3);
+  min-width: 15rem;
+  max-width: $max-content-width;
 }
