@@ -1,16 +1,18 @@
 .shop-item__btns {
   display: flex;
-
 }
 
 .shop-btn {
   display: flex;
   justify-content: center;
-  width: 20%;
+  flex-grow: 1;
+  flex-shrink: 1;
   padding: 0.5rem;
   border-top: $brand-border;
   border-right: $brand-border;
   position: relative;
+
+
   &:hover {
     background: $brand-primary;
     color: $brand-white;
@@ -21,7 +23,6 @@
     border-right: 0;
   }
 }
-
 
 
 .dropdown__options {
