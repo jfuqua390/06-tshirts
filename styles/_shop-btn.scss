@@ -10,30 +10,42 @@
   padding: 0.5rem;
   border-top: $brand-border;
   border-right: $brand-border;
+  position: relative;
+  &:hover {
+    background: $brand-primary;
+    color: $brand-white;
+    cursor: pointer;
+  }
 
   &:last-of-type {
     border-right: 0;
   }
 }
 
-.dropdown {
-  &:hover {
-    position: relative;
-    background: $brand-primary;
-    color: $brand-white;
-  }
-}
+
 
 .dropdown__options {
+  display: none;
   position: absolute;
   right: 50%;
   bottom: 100%;
-  width: 100%;
-  transform: translate(50%);
+  // width: 100%;
+  transform: translate(50%, 0);
   background: $brand-white;
   color: $brand-primary;
   text-align: center;
+  cursor: pointer;
 
+}
+
+.dropdown {
+  position: relative;
+
+  &:hover {
+    & .dropdown__options {
+      display: block;
+    }
+  }
 }
 
 .dropdown__options-item {
