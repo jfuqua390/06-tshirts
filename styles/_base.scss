@@ -1,1 +1,14 @@
 @import 'box-sizing';
+
+body {
+  margin: 0;
+  color: $brand-primary;
+  font-family: sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+
+  list-style: none;
+}

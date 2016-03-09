@@ -8,3 +8,9 @@
 @import 'shop-item';
 @import 'shop-btn';
 @import 'dropdown';
+
+//Comment to initiate assignment//
+//
+@media (min-width: 461px) and (max-width: 960px) {
+  @import 'tablet';
+}

@@ -1,0 +1,24 @@
+.outer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.container {
+  width: 75%;
+  overflow: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  flex-basis: (100% / 3);
+  flex-grow: 1;
+  width: (100% / 3);
+  min-width: 15rem;
+  max-width: $max-content-width;
+}
